@@ -1,0 +1,71 @@
+# ======================
+# SECRETS & ENV
+# ======================
+.env
+*.env
+!.env.example
+
+# ======================
+# DATA FILES
+# ======================
+data/
+*.json
+*.csv
+
+# ======================
+# PYTHON
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ======================
+# AIRFLOW
+# ======================
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+dags/__pycache__/
+dags/**/__pycache__/
+
+# ======================
+# DOCKER
+# ======================
+docker/postgres/data/
+
+# ======================
+# IDE & EDITORS
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ======================
+# JUPYTER
+# ======================
+.ipynb_checkpoints/
+*.ipynb
+
+# ======================
+# LOGS
+# ======================
+*.log
+logs/

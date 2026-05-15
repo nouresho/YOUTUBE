@@ -1,6 +1,0 @@
-venv/
-.env
-config/.env
-data/raw/
-pycache/
-*.pyc
